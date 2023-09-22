@@ -1,0 +1,5 @@
+a = input("Enter the first number")
+b =input("Enter the second number")
+sum = int(a)+int(b)
+print( a," + ",b," = ",sum )
+# print("{0} - {1} = {2} ".format(a,b,sum))
