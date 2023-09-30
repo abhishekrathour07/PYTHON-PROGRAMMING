@@ -17,7 +17,7 @@ print("Removing element of particular index")
 x.remove('orange')
 print(x)
 
-print("Inserting the multiple value\n")
+print("Inserting the  value of given indexx\n")
 x.insert(2,"abhi")
 print(x)
 
@@ -27,8 +27,12 @@ print(x.index('green'))
 # print("finding maximum value\n ")
 # print(max(x)) --> support only there is  one type of value
 
-del x  #--> deleting the whole list
+# del x  #--> deleting the whole list
 print(x)
+
+colors = ["voilet", "green", "indigo", "blue", "green"]
+print(colors.count("green"))
+
 
 
 

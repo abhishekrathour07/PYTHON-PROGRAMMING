@@ -1,6 +1,6 @@
 
 x = {'name':'abhishek','age':22,"dept":'AIGS','year':2023}
-
+Y = x.copy() #copy the dict item
 print("\nPrinting all the element in the dict")
 print(x)
 
@@ -26,6 +26,8 @@ print(x)
 print("\ndelete the last value of list")
 x.popitem()
 print(x)
+print(Y)
+
 
 
 
