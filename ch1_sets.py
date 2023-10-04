@@ -3,7 +3,7 @@ A.add("Helsinki")
 print(A)
 
 A = {"Tokyo", "Madrid", "Berlin", "Delhi"}
-B = {"Helsinki", "Warsaw", "Seoul"}
+B = {"Helsinki", "Warsaw", "Seoul","Seoul"}
 A.update(B)
 print(A)
 
@@ -29,3 +29,8 @@ cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
 cities3 = cities.difference(cities2)
 print(cities3)
+
+# Empty set .
+set1 = set()
+print(set1)
+print(type(set1))

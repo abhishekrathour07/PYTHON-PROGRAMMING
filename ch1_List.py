@@ -24,14 +24,22 @@ print(x)
 print("getting the index of element\n")
 print(x.index('green'))
 
-# print("finding maximum value\n ")
-# print(max(x)) --> support only there is  one type of value
-
 # del x  #--> deleting the whole list
 print(x)
 
 colors = ["voilet", "green", "indigo", "blue", "green"]
 print(colors.count("green"))
+print("performing sorting")
+# y = [1,2,3,4,0,9] 
+# print(y)
+# # y.reverse()
+# # y.sort()
+# # y.sort(reverse=True)
+x.extend(colors)
+
+print(x)
+
+
 
 
 
