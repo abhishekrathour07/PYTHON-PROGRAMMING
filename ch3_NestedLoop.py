@@ -9,3 +9,7 @@ for i in range(1,4):
              print(i, "*", k, "=", (i*k))
              k = k+1
       print()
+
+for i in range(1,4):
+    for k in range(1, 4):
+         print(i, "*", k, "=", (i*k))
