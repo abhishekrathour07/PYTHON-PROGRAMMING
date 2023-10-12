@@ -8,3 +8,4 @@ age =22
 str = f'Hello everyone my name is {name} and my age is {22}'
 
 print(str)
+print(f"hello guys my mane is {name}")
