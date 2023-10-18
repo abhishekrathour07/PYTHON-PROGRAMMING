@@ -21,35 +21,45 @@
 # newl2 = reduce(lambda a,b: (a*b),l1)
 # print(newl2)
 # Making Getters and Setter methods
-class Celsius:
-    def __init__(self, temperature):
-        self.set_temperature(temperature)
+# class Celsius:
+#     def __init__(self, temperature):
+#         self.set_temperature(temperature)
 
-    def to_fahrenheit(self):
-        return (self.get_temperature() * 1.8) + 32
+#     def to_fahrenheit(self):
+#         return (self.get_temperature() * 1.8) + 32
 
-    # getter method
-    def get_temperature(self):
-        return self._temperature
+#     # getter method
+#     def get_temperature(self):
+#         return self.temperature
 
-    # setter method
-    def set_temperature(self, value):
-        if value < -273.15:
-            raise ValueError("Temperature below -273.15 is not possible.")
-        self._temperature = value
+#     # setter method
+#     def set_temperature(self, value):
+#         if value < -273.15:
+#             raise ValueError("Temperature below -273.15 is not possible.")
+#         self.temperature = value
 
 
 # Create a new object, set_temperature() internally called by __init__
-human = Celsius(37)
+# human = Celsius(37)
 
-# Get the temperature attribute via a getter
-print(human.get_temperature())
+# # Get the temperature attribute via a getter
+# print(human.get_temperature())
 
-# Get the to_fahrenheit method, get_temperature() called by the method itself
-print(human.to_fahrenheit())
+# # Get the to_fahrenheit method, get_temperature() called by the method itself
+# print(human.to_fahrenheit())
 
-# new constraint implementation
-human.set_temperature(-300)
+# # new constraint implementation
+# human.set_temperature(-2)
+# print(human.get_temperature())
 
-# Get the to_fahreheit method
-print(human.to_fahrenheit())
+# # Get the to_fahreheit method
+# print(human.to_fahrenheit())
+ 
+def product(a, b):
+	  p = a * b
+
+def product(a, b,c):
+	   p = a * b *c
+	   
+# product(1,2)
+product(1,2,3)
