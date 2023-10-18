@@ -4,4 +4,4 @@ class student:
 
 
 obj  = student()
-obj.display().
+obj.display()
