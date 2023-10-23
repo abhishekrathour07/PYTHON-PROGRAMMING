@@ -1,3 +1,4 @@
+i=0
 while (i<=3):
     for k in range(1, 4):
         print(i, "*", k, "=", (i*k))

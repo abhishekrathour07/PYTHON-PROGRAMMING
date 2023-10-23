@@ -1,7 +1,7 @@
 import os 
 import sys
 print(os.getcwd())
-os.chdir("lib")
+os.chdir("Library")
 # path = "D:\MyCodes\PYTHON PROGRAMMING/lib" --> We can use this also
 # os.chdir(path)
 
