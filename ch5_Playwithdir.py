@@ -1,4 +1,4 @@
-import os,shutil
+# import os,shutil
 
 # os.mkdir("Abhishek")
 
@@ -26,14 +26,14 @@ import os,shutil
 
 # os.remove("Abhishek")
 
-if os.path.isfile("Hello.txt"):
- os.remove("Hello.txt") 
+# if os.path.isfile("Hello.txt"):
+#  os.remove("Hello.txt") 
 
-if os.path.isdir("Abhishek"):
-    os.rmdir("Abhishek")
+# if os.path.isdir("Abhishek"):
+#     os.rmdir("Abhishek")
 
-if os.path.isdir("nonempty-dir"):
-    shutil.rmtree("nonempty-dir")
+# if os.path.isdir("nonempty-dir"):
+#     shutil.rmtree("nonempty-dir")
 
 
 
