@@ -2,8 +2,6 @@ n = int(input("Enter the number to check prime: "))
 c=0
 if(n==0 or n==1):
   print(" Not a Prime Number ")
-    
-   
    
 if n>1:
     for i in range(2,n):
