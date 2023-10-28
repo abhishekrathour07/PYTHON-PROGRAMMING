@@ -17,11 +17,9 @@ def calculate():
         entry.delete(0, tk.END)
         entry.insert(0, "Error")
 
-# Create the main window
 win = tk.Tk()
 win.title("Calculator")
 
-# Create an entry widget for input
 entry = tk.Entry(win, width=16, font=('Arial', 20), justify='right')
 entry.grid(row=0, column=0, columnspan=4)
 
@@ -33,7 +31,6 @@ buttons = [
     'C', '0', '=', '+'
 ]
 
-# Create buttons and place them on the grid
 row_val = 1
 col_val = 0
 for button in buttons:
