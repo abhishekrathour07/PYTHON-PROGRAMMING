@@ -15,5 +15,5 @@ b2.place(x=120,y = 180)
 win.mainloop()
 
 # pack place button anywhere
-# git place button according to row and column
+# grid place button according to row and column
 # place put button on x and y axis
