@@ -14,8 +14,6 @@ lb.pack()
 win.title('First')
 top = Toplevel()
 top.title('second')
-top.title('Third')
-
 
 b = Button(win,text='Greet',command=hello)
 b.pack()
