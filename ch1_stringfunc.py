@@ -6,7 +6,8 @@ str1 = "AbcDEfghIJ"
 print(str1.lower())
 
 str2 = " Silver Spoon "
-print(str2.strip)
+s =str2.strip()
+print(s)
 
 str3 = "Hello !!!"
 print(str3.rstrip("!"))

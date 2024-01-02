@@ -6,7 +6,7 @@ print(x[2])
 print(x[2:5])
 
 print("removing the last element from list\n")
-print(x.pop())
+x.pop(2)
 print(x)
 
 print("Inserting value in the list\n")
