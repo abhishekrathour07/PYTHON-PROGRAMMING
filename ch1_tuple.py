@@ -7,4 +7,3 @@ print(tuple[1:3])
 print(tuple.count(2))
 
 print(tuple.index(123))
-

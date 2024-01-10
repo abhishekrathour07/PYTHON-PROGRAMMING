@@ -28,7 +28,7 @@ print(x.index('green'))
 print(x)
 
 colors = ["voilet", "green", "indigo", "blue", "green"]
-print(colors.count("green"))
+print(colors.count("green")) 
 print("performing sorting")
 # y = [1,2,3,4,0,9] 
 # print(y)
