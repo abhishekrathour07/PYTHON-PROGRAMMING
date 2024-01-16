@@ -1,0 +1,12 @@
+print('printing the dictionary item:')
+dict1={"name":"suma","regno":321,"course":"BCA","age":19}
+print(dict1)
+print('accessing the items:')
+print(dict1["age"])
+print('using get():')
+x=dict1.get("regno")
+print(x)
+print('changing the values in the dictionary:')
+dict1.update({"regno":286})
+print(dict1)
+print('length of dictionary is:',len(dict1))
