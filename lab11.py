@@ -6,7 +6,7 @@ with open("word.txt","r") as file:
 			letter_count[ch]=1
 		else:
 			letter_count[ch]+=1
-print(data)
+ print(data)
 for i in letter_count:
 	print(i,":",letter_count[i])
 print(letter_count)
